@@ -44,26 +44,45 @@ const menuData: Menu[] = [
       },
       {
         id: 44,
-        title: "Graphics Design",
-        path: "/Services/Graphics",
+        title: "Developers",
+        path: "/Services/SEO",
         newTab: false,
       },
       {
         id: 45,
-        title: "Creative Content Writing",
-        path: "/Services/Content",
-        newTab: false,
-      },
-      {
-        id: 46,
         title: "SEO & Digital Media Marketing",
         path: "/Services/SEO",
         newTab: false,
       },
       {
+        id: 46,
+        title: "Creative Content Writing",
+        path: "/Services/Content",
+        newTab: false,
+      },
+      {
         id: 47,
+        title: "Graphics Design",
+        path: "/Services/Graphics",
+        newTab: false,
+      },
+      {
+        id: 48,
         title: "Photography",
         path: "/Services/SEO",
+        newTab: false,
+      },
+      {
+        id: 49,
+        title: "Admin Work & Assistance",
+        path: "/Services/SEO",
+        newTab: false,
+      },
+      
+      {
+        id: 410,
+        title: "All Services",
+        path: "/AllServices/page",
         newTab: false,
       },
     ]
@@ -75,7 +94,7 @@ const menuData: Menu[] = [
     newTab: false,
   },
   {
-    id: 4,
+    id: 6,
     title: "Contact Us",
     path: "/Contact/page",
     newTab: false,

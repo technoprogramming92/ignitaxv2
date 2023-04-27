@@ -208,7 +208,7 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and <a href="https://nextjstemplates.com" rel="nofollow noopener">Next.js Templates</a>
+              All rigts reserved <a href="https://nextjstemplates.com" rel="nofollow noopener">IGNITAX</a>
             </p>
           </div>
         </div>
