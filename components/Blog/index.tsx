@@ -8,7 +8,7 @@ const Blog = () => {
       <div className="container">
         <SectionTitle
           title="Our Services"
-          paragraph="These are the types of services provided by IGNITAX"
+          paragraph="Grab a cup of coffee and take a peek at the services Ignitax offer for your ease."
           center
         />
 

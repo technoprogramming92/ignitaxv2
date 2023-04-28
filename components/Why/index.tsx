@@ -6,6 +6,16 @@ const whyData: Why[] = [
     {
       id: 1,
       content:
+    "Dedicated Like our parents wanted us to be with studies - Ignitax provides Dedicated virtual person, team, staff to you! ",
+    },
+    {
+      id: 1,
+      content:
+    "Like Mamma says, Save Money - with an employee, you have to pay a salary, benefits, and other employment-related expenses and our virtual staff will save a legit amount of money isn't that amazing?",
+    },
+    {
+      id: 1,
+      content:
     "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     },
     {
@@ -26,7 +36,7 @@ const whyData: Why[] = [
         <div className="container">
         <SectionTitle
           title="Why Choose Us"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="We're your virtual assistant matchmakers, and we'll find you the perfect match without the awkward first date."
           center
         />
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">

@@ -27,21 +27,21 @@ const blogData: Blog[] = [
     id: 4,
     title: "Digital Media Marketing",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Are you feeling lost in the digital jungle? Take a deep breath Ignitax is here to guide you through the wilderness with our expert digital media marketing services! Our team of virtual marketing gurus specialize in social media marketing, SEO, email marketing, content creation, and much more. From increasing your brand awareness to boosting your online presence, we've got you covered. Contact us today and let us help you stand out from the digital herd!",
     image: "/images/service-home-real/Marketing consulting-pana.svg",
   },
   {
     id: 5,
     title: "Content Writing",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Hmm! tired of writing bland content that puts even you to sleep? Don't worry, for Ignitax's team of witty wordsmiths is here to save the day! We'll create content that's so engaging, your audience will be hanging on your every word. From blog posts to product descriptions, our team can do it all. And the best part? You'll never have to face writer's block again! So sit back, relax, and let us do the writing.To create some magic together, Drop us a line and let's start crafting some killer content.",
     image: "/images/service-home-real/Creative writing-amico.svg",
   },
   {
     id: 6,
     title: "Graphic Designing",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Say goodbye to mediocre design and hello to eye-catching graphics with Ignitax's top-notch graphic design services! Our talented virtual designers specialize in everything from logo design to web graphics, and we're here to bring your visions to life. Need a design refresh or a new logo? We've got you covered. With Ignitax, your brand will be unstoppable. Schedule a free consultation today and let's make your visuals pop!",
     image: "/images/service-home-real/Designer-pana.svg",
   },
 ];
