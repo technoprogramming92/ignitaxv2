@@ -13,11 +13,11 @@ const AboutSectionTwo = () => {
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
             <div
-              className="wow fadeInUp relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
+              className="wow fadeInUp relative mx-auto mb-8 aspect-[28/26] max-w-[800px] text-center lg:m-0"
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/hero/Connected world-bro.svg"
+                src="/images/hero/ignitax hero.png"
                 alt="about image"
                 fill
               />
