@@ -9,8 +9,8 @@ const AllServices = () => {
     <div>
         <Header />
         <Breadcrumb
-            pageName="All Services"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+            pageName="All Virtual Services"
+            description=""
         />
         <Services />
         <Footer />
