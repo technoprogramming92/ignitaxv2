@@ -26,8 +26,8 @@ const Tax = () => {
     <>
       <Header />
       <Breadcrumb
-        pageName="Taxation Service"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName=""
+        description=""
       />
       <section id="about" className="pt-16 md:pt-20 lg:pt-28">
         <div className="container">
@@ -35,8 +35,9 @@ const Tax = () => {
             <div className="-mx-4 flex flex-wrap items-center">
               <div className="w-full px-4 lg:w-1/2">
                 <SectionTitle
-                  title="U.S. Taxation"
-                  paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                  title="Bookkeeping"
+                  paragraph="At Ignitax, we know that bookkeeping can be a tedious and time-consuming task. That's why we offer comprehensive bookkeeping services to small businesses and individuals, delivered virtually by a dedicated person or team of professionals to help you stay organised and in control of your finances."
+                  paragraph2="Our virtual staff of bookkeeping has the expertise and knowledge to manage your financial records with precision and accuracy. We use reliable technology and systems to ensure that your records are up-to-date, organised, and easily accessible from anywhere."
                   mb="44px"
                 />
 
@@ -46,7 +47,7 @@ const Tax = () => {
                 >
                   <div className="mx-[-12px] flex flex-wrap">
                     <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                      <List text="Premium quality" />
+                      <List text="Premium quality lasan" />
                       <List text="Tailwind CSS" />
                       <List text="Use for lifetime" />
                     </div>
@@ -66,7 +67,7 @@ const Tax = () => {
                   data-wow-delay=".2s"
                 >
                   <Image
-                    src="/images/service-images/tax-service1.png"
+                    src="/images/service-images/Audit-rafiki.svg"
                     alt="about-image"
                     fill
                     className="mx-auto max-w-full lg:mr-0"
@@ -86,6 +87,7 @@ const Tax = () => {
                 <SectionTitle
                   title="U.S. Taxation"
                   paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                  paragraph2=""
                   mb="44px"
                 />
 
@@ -115,7 +117,7 @@ const Tax = () => {
                   data-wow-delay=".2s"
                 >
                   <Image
-                    src="/images/service-images/tax-service1.png"
+                    src="/images/service-images/Tax-amico (1).svg"
                     alt="about-image"
                     fill
                     className="mx-auto max-w-full lg:mr-0"
