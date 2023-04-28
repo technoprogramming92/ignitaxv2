@@ -1,3 +1,4 @@
+
 type Author = {
     name: string;
     image: string;
@@ -9,5 +10,6 @@ type Author = {
     title: string;
     paragraph: string;
     image: string;
+    path?: string;
   };
   
