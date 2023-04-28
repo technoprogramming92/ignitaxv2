@@ -9,24 +9,44 @@ const whyData: Why[] = [
     "Dedicated Like our parents wanted us to be with studies - Ignitax provides Dedicated virtual person, team, staff to you! ",
     },
     {
-      id: 1,
+      id: 2,
       content:
     "Like Mamma says, Save Money - with an employee, you have to pay a salary, benefits, and other employment-related expenses and our virtual staff will save a legit amount of money isn't that amazing?",
     },
     {
-      id: 1,
-      content:
-    "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    },
-    {
-      id: 2,
-      content:
-        "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    },
-    {
       id: 3,
       content:
-        "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    "24/7 Availability like your bff  - Need a helping hand who will be by your side, someone authentic just like your bff? And also don't want to deal with the hassles of scheduling and time zones? A virtual professional can work for you from anywhere, at any time even in their pajamas.",
+    },
+    {
+      id: 4,
+      content:
+        "Specialised skilled person with perfection just like Beyonce - We're practically superheroes, but without the capes. We can save you time, money, and sanity with professionalism and perfection.",
+    },
+    {
+      id: 5,
+      content:
+        "Productivity",
+    },
+    {
+      id: 6,
+      content:
+        "Data protection",
+    },
+    {
+      id: 7,
+      content:
+        "We are Focused on meeting your deadlines.",
+    },
+    {
+      id: 8,
+      content:
+        "Best fit in your budget",
+    },
+    {
+      id: 9,
+      content:
+        "xyz",
     },
   ];
   
