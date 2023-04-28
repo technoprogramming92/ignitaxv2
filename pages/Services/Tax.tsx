@@ -26,7 +26,7 @@ const Tax = () => {
     <>
       <Header />
       <Breadcrumb
-        pageName=""
+        pageName="Bookkeeping And Tax"
         description=""
       />
       <section id="about" className="pt-16 md:pt-20 lg:pt-28">
@@ -39,6 +39,8 @@ const Tax = () => {
                   paragraph="At Ignitax, we know that bookkeeping can be a tedious and time-consuming task. That's why we offer comprehensive bookkeeping services to small businesses and individuals, delivered virtually by a dedicated person or team of professionals to help you stay organised and in control of your finances."
                   paragraph2="Our virtual staff of bookkeeping has the expertise and knowledge to manage your financial records with precision and accuracy. We use reliable technology and systems to ensure that your records are up-to-date, organised, and easily accessible from anywhere."
                   mb="44px"
+                  paragraph3=""
+                  paragraph4=""
                 />
 
                 <div
@@ -47,15 +49,15 @@ const Tax = () => {
                 >
                   <div className="mx-[-12px] flex flex-wrap">
                     <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                      <List text="Premium quality lasan" />
-                      <List text="Tailwind CSS" />
-                      <List text="Use for lifetime" />
+                      <List text="Accounts Payable and Receivable" />
+                      <List text="Bank Reconciliations" />
+                      <List text="UsPayroll Processing" />
                     </div>
 
                     <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                      <List text="Next.js" />
-                      <List text="Rich documentation" />
-                      <List text="Developer friendly" />
+                      <List text="Sales Tax Compliance" />
+                      <List text="Financial Statements Preparation" />
+                      <List text="Day to Day Bookkeeping"/>
                     </div>
                   </div>
                 </div>
@@ -85,10 +87,12 @@ const Tax = () => {
             <div className="-mx-4 flex flex-wrap items-center">
               <div className="w-full px-4 lg:w-1/2">
                 <SectionTitle
-                  title="U.S. Taxation"
-                  paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
-                  paragraph2=""
+                  title="Taxation"
+                  paragraph="At Ignitax , we're proud to have a team of highly experienced tax professionals who are dedicated to providing our clients with exceptional service. Our team works closely with CPAs and EAs to ensure that all of our clients' tax needs are met."      
+                  paragraph2="We have extensive experience working with a wide range of tax forms, including the 1040, 1120, 1120S, 1065 and manymore. Our team stays up-to-date with the latest tax regulations and requirements, so that we can provide our clients with the most accurate and efficient service possible."
                   mb="44px"
+                  paragraph3="In addition to our domestic tax services, we're also well-versed in foreign compliances, such as the l 5471, 5472, GILTI, FDII, and more. We understand the complexities of international tax laws and regulations, and we work tirelessly to ensure that our clients remain compliant and avoid any potential penalties or fines.Our team is also well-versed in the R&D tax credit (Form 6765) and the Employee Retention Tax Credit (ERTC). We work closely with our clients to identify any eligible credits and deductions, and we help them navigate the application process to ensure that they receive the maximum benefits."
+                  paragraph4="Our goal is to provide our clients with the best possible tax services, and to make the process as simple and hassle-free as possible. Contact us today to learn more about how we can help you with your tax needs!"
                 />
 
                 <div
@@ -97,15 +101,17 @@ const Tax = () => {
                 >
                   <div className="mx-[-12px] flex flex-wrap">
                     <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                      <List text="Premium quality" />
-                      <List text="Tailwind CSS" />
-                      <List text="Use for lifetime" />
+                      
+                      <List text="Tax Preparation " />
+                      <List text="Tax Planning and Consultation" />
+                      <List text="Foreign Compliances" />
+                      <List text="R&D Tax Credit (Form 6765)" />
                     </div>
 
                     <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                      <List text="Next.js" />
-                      <List text="Rich documentation" />
-                      <List text="Developer friendly" />
+                      <List text="Employee Retention Tax Credit" />
+                      <List text="Filing Extensions" />
+                      <List text="Deadline Management" />
                     </div>
                   </div>
                 </div>

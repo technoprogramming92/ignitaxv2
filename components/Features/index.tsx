@@ -14,6 +14,9 @@ const Features = () => {
             title="Our Services"
             paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
             center
+            paragraph2=""
+            paragraph3=""
+            paragraph4=""
           />
 
           <div className="grid grid-cols-1 gap-x-7 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
