@@ -5,46 +5,55 @@ import SectionTitle from "../Common/SectionTitle";
 const whyData: Why[] = [
     {
       id: 1,
+      content_bold:"Dedicated Like our parents wanted us to be with studies",
       content:
-    "Dedicated Like our parents wanted us to be with studies - Ignitax provides Dedicated virtual person, team, staff to you! ",
+    " - Ignitax provides Dedicated virtual person, team, staff to you! ",
     },
     {
       id: 2,
+      content_bold:"Like Mamma says, Save Money",
       content:
-    "Like Mamma says, Save Money - with an employee, you have to pay a salary, benefits, and other employment-related expenses and our virtual staff will save a legit amount of money isn't that amazing?",
+    " - with an employee, you have to pay a salary, benefits, and other employment-related expenses and our virtual staff will save a legit amount of money isn't that amazing?",
     },
     {
       id: 3,
+      content_bold:"24/7 Availability like your bff",
       content:
-    "24/7 Availability like your bff  - Need a helping hand who will be by your side, someone authentic just like your bff? And also don't want to deal with the hassles of scheduling and time zones? A virtual professional can work for you from anywhere, at any time even in their pajamas.",
+    " - Need a helping hand who will be by your side, someone authentic just like your bff? And also don't want to deal with the hassles of scheduling and time zones? A virtual professional can work for you from anywhere, at any time even in their pajamas.",
     },
     {
       id: 4,
+      content_bold:"Specialised skilled person with perfection just like Beyonce",
       content:
-        "Specialised skilled person with perfection just like Beyonce - We're practically superheroes, but without the capes. We can save you time, money, and sanity with professionalism and perfection.",
+        " - We're practically superheroes, but without the capes. We can save you time, money, and sanity with professionalism and perfection.",
     },
     {
       id: 5,
+      content_bold:"",
       content:
         "Productivity",
     },
     {
       id: 6,
+      content_bold:"",
       content:
         "Data protection",
     },
     {
       id: 7,
+      content_bold:"",
       content:
         "We are Focused on meeting your deadlines.",
     },
     {
       id: 8,
+      content_bold:"",
       content:
         "Best fit in your budget",
     },
     {
       id: 9,
+      content_bold:"",
       content:
         "xyz",
     },
