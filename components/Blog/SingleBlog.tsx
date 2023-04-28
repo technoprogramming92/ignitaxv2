@@ -1,9 +1,11 @@
 import { Blog } from "@/types/blog";
 import Image from "next/image";
 import Link from "next/link";
+import blogData from "./blogData";
+
 
 const SingleBlog = ({ blog }: { blog: Blog }) => {
-  const { title, image, paragraph } = blog;
+  const { title, image, paragraph, path } = blog;
   return (
     <>
       <div
@@ -17,7 +19,9 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
         <div className="p-6 sm:p-8 md:py-8 md:px-6 lg:p-8 xl:py-8 xl:px-5 2xl:p-8">
           <h3>
             <Link
-              href="/"
+              href={{
+                pathname: path,
+              }}
               className="mb-4 block text-xl font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl"
             >
               {title}
