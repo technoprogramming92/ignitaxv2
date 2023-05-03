@@ -40,8 +40,11 @@ const Web = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Web Development & Software Development"
+                paragraph="At Ignitax, we know that your website and software development needs are no laughing matter. But we also believe that humour is a great way to break the ice, which is why we promise to bring our funniest jokes to every virtual meeting."
+                paragraph2="In all seriousness, we take your web design and software development needs seriously. Our virtual team of experts has the skills and knowledge to help you create a website and software that will make your competitors green with envy"
+                paragraph3="By hiring our virtual team for your web design and software development needs, you can be sure that your online presence is in good hands. We are committed to providing exceptional service and support, so you can focus on what you do best – running your business."
+                paragraph4=""
                 mb="44px"
               />
 
@@ -51,15 +54,11 @@ const Web = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    
                   </div>
                 </div>
               </div>

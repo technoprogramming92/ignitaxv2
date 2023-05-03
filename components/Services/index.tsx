@@ -9,6 +9,9 @@ const Services = () => {
           <SectionTitle
             title="All Virtual Services by Ignitax"
             paragraph="Our virtual Staff of professionals can provide you below services."
+            paragraph2=""
+            paragraph3=""
+            paragraph4=""
             center
           />
   
