@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import SectionTitle from "@/components/Common/SectionTitle";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import SoftwareWebFeatures from "@/components/SoftwareWebFeatures";
 import Image from "next/image";
 
 
@@ -81,6 +82,7 @@ const Web = () => {
         </div>
       </div>
     </section>
+    <SoftwareWebFeatures />
     <Footer />
     </>
   )
