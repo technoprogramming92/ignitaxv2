@@ -69,7 +69,7 @@ const menuData: Menu[] = [
       {
         id: 48,
         title: "Photography",
-        path: "/Services/SEO",
+        path: "/Services/Photography",
         newTab: false,
       },
       {

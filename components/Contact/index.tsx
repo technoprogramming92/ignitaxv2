@@ -1,6 +1,20 @@
 import NewsLatterBox from "./NewsLatterBox";
+import { error } from "console";
+
 
 const Contact = () => {
+  function Submit(e) {
+    const formEle = document.querySelector("form")
+    e.preventDefault();
+    console.log("Submitted")
+    const formData = new FormData(formEle)
+    fetch("https://script.google.com/macros/s/AKfycbw2UwxqdtPJZ-sBfMS5lnXhA6kR6Ht0VPz8YalHKWz64SQ25T6MFGxUBTuVNvOukopRNA/exec", {
+      method: "POST",
+      body: formData
+    }).then((res) => res.json()).then((data)=>{
+      console.log(data)
+    }).catch((error)=>console.log(error));
+  }
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -17,18 +31,19 @@ const Contact = () => {
               <p className="mb-12 text-base font-medium text-body-color">
                 Our support team will get back to you ASAP via email.
               </p>
-              <form>
+              <form className="form" onSubmit={(e)=>Submit(e)}>
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
                       <label
-                        htmlFor="name"
+                        htmlFor="Name"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
                         Your Name
                       </label>
                       <input
                         type="text"
+                        name="Name"
                         placeholder="Enter your name"
                         className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                       />
@@ -37,13 +52,14 @@ const Contact = () => {
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
                       <label
-                        htmlFor="email"
+                        htmlFor="Email"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
                         Your Email
                       </label>
                       <input
                         type="email"
+                        name="Email"
                         placeholder="Enter your email"
                         className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                       />
@@ -52,13 +68,13 @@ const Contact = () => {
                   <div className="w-full px-4">
                     <div className="mb-8">
                       <label
-                        htmlFor="message"
+                        htmlFor="Message"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
                         Your Message
                       </label>
                       <textarea
-                        name="message"
+                        name="Message"
                         rows={5}
                         placeholder="Enter your Message"
                         className="w-full resize-none rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
@@ -66,7 +82,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="w-full px-4">
-                    <button className="rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                    <button type="submit" className="rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
                       Submit Ticket
                     </button>
                   </div>
