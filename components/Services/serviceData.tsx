@@ -6,21 +6,21 @@ const serviceData: Service[] = [
     id: 1,
     title: "Bookkeeping",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "we offer comprehensive bookkeeping services, delivered virtually by a dedicated person or team of professionals to help you stay organised and in control of your finances.",
     image: "/images/service-home-real/Tax-bro.svg",
   },
   {
     id: 1,
     title: "Tax Planning & Preparation",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Say goodbye to stress of tax prepration and tax planning with Ignitax! Our reliable tech and virtual staff of superheroes (EA's & CPA's) will make sure you never miss a payment or deadline again.",
     image: "/images/service-home-real/Tax-amico.svg",
   },
   {
     id: 2,
     title: "Software Development",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Our virtual professionals are pros in web development, software development, and automation. From stunning website designs to magical software integrations, we are here to help you.",
     image: "/images/service-home-real/Design team-amico.svg",
   },
   {
