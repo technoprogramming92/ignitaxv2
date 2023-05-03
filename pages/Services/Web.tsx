@@ -32,7 +32,7 @@ const Web = () => {
     <Header />
     <Breadcrumb
         pageName="Web Development"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description=""
       />
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
