@@ -1,15 +1,19 @@
 import NewsLatterBox from "./NewsLatterBox";
+import { error } from "console";
+
 
 const Contact = () => {
   function Submit(e) {
     const formEle = document.querySelector("form")
-    e.preventDefault()
+    e.preventDefault();
     console.log("Submitted")
     const formData = new FormData(formEle)
     fetch("https://script.google.com/macros/s/AKfycbw2UwxqdtPJZ-sBfMS5lnXhA6kR6Ht0VPz8YalHKWz64SQ25T6MFGxUBTuVNvOukopRNA/exec", {
       method: "POST",
       body: formData
-    })
+    }).then((res) => res.json()).then((data)=>{
+      console.log(data)
+    }).catch((error)=>console.log(error));
   }
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
