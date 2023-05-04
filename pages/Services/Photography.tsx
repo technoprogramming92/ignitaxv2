@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
 import PhotoFeatures from '@/components/PhotoFeatures';
+import ImageGallery from '@/components/ImageGallery';
 
 const checkIcon = (
     <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -78,6 +79,7 @@ const Photography = () => {
       </div>
     </section>
     <PhotoFeatures />
+    <ImageGallery />
     <Footer />
     </>
   )
