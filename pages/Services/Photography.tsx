@@ -28,7 +28,7 @@ const Photography = () => {
     <Header />
     <Breadcrumb
         pageName="Photography"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description=""
       />
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
@@ -37,7 +37,10 @@ const Photography = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                paragraph="Our team of skilled photographers captures your memories in stunning detail. From product photography to wedding photography, we offer a wide range of services to meet your needs. We use high-end cameras and lighting equipment to ensure that your images are crisp, clear, and visually appealing."
+                paragraph2=""
+                paragraph3=""
+                paragraph4=""
                 mb="44px"
               />
 
@@ -47,15 +50,15 @@ const Photography = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Event Photography" />
+                    <List text="Wedding Photography" />
+                    <List text="Portrait Photography" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Product Photography" />
+                    <List text="Real Estate Photography" />
+                    <List text="Photo Editing and Retouching" />
                   </div>
                 </div>
               </div>
