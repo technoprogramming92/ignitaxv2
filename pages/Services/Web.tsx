@@ -33,7 +33,7 @@ const Web = () => {
     <Header />
     <Breadcrumb
         pageName="Web Development"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description=""
       />
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
@@ -71,7 +71,7 @@ const Web = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/service-images/web-service1.png"
+                  src="/images/service-images/Website Creator-amico (1).svg"
                   alt="about-image"
                   fill
                   className="mx-auto max-w-full lg:mr-0"

@@ -2,9 +2,11 @@
 
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import SectionTitle from "@/components/Common/SectionTitle";
+import Degitalmarketingfeatures from "@/components/Degitalmarketingfeatures";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
+
 
 
 const checkIcon = (
@@ -31,8 +33,8 @@ const SEO = () => {
     <>
     <Header />
     <Breadcrumb
-        pageName="SEO"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Digital Media Marketing"
+        description=""
       />
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
@@ -40,9 +42,13 @@ const SEO = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
-                mb="44px"
+                title="Digital Media Marketing and SEO"
+                paragraph="Are you tired of shouting into the void of social media? Let us be your online megaphone! Our team of digital media mavens can help boost your online presence and engage with your audience like never before. From content creation to social media management, we'll help you connect with your audience and grow your brand."
+                paragraph2="So let us take the reins and give your online presence the boost it needs! We promise we won't post any embarrassing cat videos (unless you want us to)."
+                paragraph3=""
+                paragraph4=""
+              
+              
               />
 
               <div
@@ -51,15 +57,11 @@ const SEO = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                   
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    
                   </div>
                 </div>
               </div>
@@ -82,6 +84,8 @@ const SEO = () => {
         </div>
       </div>
     </section>
+    <Degitalmarketingfeatures />
+
     <Footer />
     </>
   )

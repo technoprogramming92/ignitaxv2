@@ -208,7 +208,7 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              All rigts reserved <a href="https://nextjstemplates.com" rel="nofollow noopener">IGNITAX</a>
+              All rigts reserved by <a href="https://nextjstemplates.com" rel="nofollow noopener">IGNITAX</a>
             </p>
           </div>
         </div>
