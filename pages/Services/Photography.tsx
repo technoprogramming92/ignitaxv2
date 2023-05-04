@@ -4,7 +4,6 @@ import SectionTitle from "@/components/Common/SectionTitle";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
-import PhotoFeatures from "@/components/PhotoFeatures";
 import ImageGallery from "@/components/ImageGallery";
 
 const checkIcon = (
@@ -35,8 +34,11 @@ const Photography = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Photography"
+                paragraph="Our team of skilled photographers captures your memories in stunning detail. From product photography to Event photography, we offer a wide range of services to meet your needs. We use high-end cameras and lighting equipment to ensure that your images are crisp, clear, and visually appealing."
+                paragraph2=""
+                paragraph3=""
+                paragraph4=""
                 mb="44px"
               />
 
@@ -46,15 +48,15 @@ const Photography = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Product Photography" />
+                    <List text="Event Photography" />
+                    <List text="Wedding Photography" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Real Estate Photography" />
+                    <List text="Portrait Photography" />
+                    <List text="Photo Editing and Retouching" />
                   </div>
                 </div>
               </div>
@@ -77,7 +79,7 @@ const Photography = () => {
           </div>
         </div>
       </section>
-      <PhotoFeatures />
+      
       <ImageGallery />
       <Footer />
     </>
