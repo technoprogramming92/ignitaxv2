@@ -4,7 +4,7 @@ import { Service } from "@/types/service";
 const serviceData: Service[] = [
   {
     id: 1,
-    title: "Social media management:",
+    title: "Social media management",
     paragraph:
       "In the digital age, social media is a crucial aspect of any business's marketing strategy. Our social media marketing services focus on creating a strong presence for your brand on all major social media platforms, including Facebook, Twitter, Instagram, LinkedIn, and more. We'll work with you to develop engaging content that resonates with your audience and creates meaningful interactions and With our data-driven approach, you'll be able to make informed decisions about your social media marketing strategy and see real results.",
     image: "/images/service-home-real/Tax-bro.svg",

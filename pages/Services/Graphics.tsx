@@ -3,6 +3,7 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import SectionTitle from "@/components/Common/SectionTitle";
 import Footer from "@/components/Footer";
+import GalleryGraphics from "@/components/GalleryGraphics";
 import Header from "@/components/Header";
 import Image from "next/image";
 
@@ -40,8 +41,11 @@ const Graphics = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Graphic Designing"
+                paragraph="Our talented team of visual artists brings your ideas to life through stunning graphics and designs that capture the essence of your brand. Whether you need a logo, brochure, or website design, our creative gurus have got you covered. We use the latest design tools and techniques to craft unique and impactful visuals that will make your brand stand out from the crowd."
+                paragraph2="With a keen eye for detail and a passion for creativity, our designers are committed to delivering outstanding results that exceed your expectations. Let us help you create a visual identity that speaks volumes about your brand and captures the hearts of your customers."
+                paragraph3=""
+                paragraph4=""
                 mb="44px"
               />
 
@@ -51,15 +55,30 @@ const Graphics = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Banners" />
+                    <List text="Billboards" />
+                    <List text="Brochures" />
+                    <List text="Envelopes" />
+                    <List text="Flyers" />
+                    <List text="Infographics" />
+                    <List text="Menus" />
+                    <List text="News Letters" />
+                    <List text="Packging Design" />
+                    <List text="Vector Art" />
+                    
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Businesscards" />
+                    <List text="Business fourms" />
+                    <List text="Catalouges" />
+                    <List text="Invitations" />
+                    <List text="Letter heads" />
+                    <List text="Logos" />
+                    <List text="Posters" />
+                    <List text="Social Media Posts" />
+                    <List text="Stickers and Lables" />
+                    <List text="Vehicle Wraps" />
                   </div>
                 </div>
               </div>
@@ -82,6 +101,7 @@ const Graphics = () => {
         </div>
       </div>
     </section>
+    <GalleryGraphics/>
     <Footer />
     </>
   )
