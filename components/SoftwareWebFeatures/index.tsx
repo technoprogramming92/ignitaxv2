@@ -7,8 +7,8 @@ const Services = () => {
       <section id="blog" className="bg-primary/5 py-16 md:py-20 lg:py-15">
         <div className="container">
           <SectionTitle
-            title="All Virtual Services by Ignitax"
-            paragraph="Our virtual Staff of professionals can provide you below services."
+            title=""
+            paragraph=""
             center
           />
   
