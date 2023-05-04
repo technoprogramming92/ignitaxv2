@@ -2,6 +2,7 @@
 
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import SectionTitle from "@/components/Common/SectionTitle";
+import Contentfeatures from "@/components/Contentfeatures";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
@@ -32,7 +33,7 @@ const Content = () => {
     <Header />
     <Breadcrumb
         pageName="Content Writing"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description=""
       />
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
@@ -40,8 +41,11 @@ const Content = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Creative Content Writer"
+                paragraph="Are you struggling to create content that captures your audience's attention and drives them to action? Fear not! Our team of wordsmiths are here to help. We'll craft compelling copy that tells your brand story, informs and entertains your audience, and convinces them to take action."
+                paragraph2="From blog posts to social media captions, product descriptions to email newsletters, we've got you covered. So sit back, relax, and let us do the writing - you'll be amazed at the results. We promise not to bore you with industry jargon or cliches (unless you're into that sort of thing), and we'll always deliver content that's on-brand and on-point. Ready to take your content to the next level?"
+                paragraph3="Let's chat!"
+                paragraph4=""
                 mb="44px"
               />
 
@@ -51,15 +55,11 @@ const Content = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    
                   </div>
                 </div>
               </div>
@@ -82,6 +82,7 @@ const Content = () => {
         </div>
       </div>
     </section>
+    <Contentfeatures />
     <Footer />
     </>
   )
