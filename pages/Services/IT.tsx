@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import SectionTitle from "@/components/Common/SectionTitle";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import ITFeatures from "@/components/ITFeatures";
 import Image from "next/image";
 
 
@@ -32,7 +33,7 @@ const Tax = () => {
     <Header />
     <Breadcrumb
         pageName="IT Services"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description=""
       />
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
@@ -40,8 +41,11 @@ const Tax = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="IT and Support"
+                paragraph="Are you tired of being your own IT department? Do you dread the thought of having to troubleshoot your own tech issues? Fear not, because we're here to rescue you from the woes of computer glitches and software snafus."
+                paragraph2="At IGNITAX, we specialize in providing top-notch IT and support services to businesses just like yours. Whether you're dealing with a pesky virus, struggling with software updates, or simply need some expert advice, we've got you covered."
+                paragraph3="Our team of tech wizards will swoop in to save the day with lightning-fast response times and a can-do attitude. We'll work tirelessly to ensure your systems are running smoothly, leaving you free to focus on what you do best - growing your business."
+                paragraph4="So say goodbye to the headaches of DIY IT and hello to the peace of mind that comes with having a team of pros in your corner. Contact us today to learn more about how we can help you get the most out of your technology."
                 mb="44px"
               />
 
@@ -51,15 +55,11 @@ const Tax = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                   
                   </div>
                 </div>
               </div>
@@ -82,6 +82,7 @@ const Tax = () => {
         </div>
       </div>
     </section>
+    <ITFeatures />
     <Footer />
     </>
   )
