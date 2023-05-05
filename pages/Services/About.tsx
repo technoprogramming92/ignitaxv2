@@ -6,7 +6,7 @@ import SectionTitle from "@/components/Common/SectionTitle";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
-import PhotoFeatures from "@/components/PhotoFeatures";
+
 
 const About = () => {
   return (
@@ -52,7 +52,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <PhotoFeatures />
+      
       <Footer />
     </>
   );
