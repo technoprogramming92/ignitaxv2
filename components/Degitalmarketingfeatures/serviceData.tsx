@@ -13,7 +13,7 @@ const serviceData: Service[] = [
     id: 2,
     title: "Content creation",
     paragraph:
-      "Our team of expert content creators can produce everything from eye-catching graphics and captivating videos to engaging blog posts and social media updates. We'll work closely with you to understand your brand's unique voice and develop content that aligns with your goals and resonates with your audience.Whether you need a one-time project or ongoing content creation support, we're here to help. With [Company Name], you can be confident that your content will be high-quality, on-brand, and designed to drive results for your business.",
+      "Our team of expert content creators can produce everything from eye-catching graphics and captivating videos to engaging blog posts and social media updates. We'll work closely with you to understand your brand's unique voice and develop content that aligns with your goals and resonates with your audience.Whether you need a one-time project or ongoing content creation support, we're here to help. With IGNITAX you can be confident that your content will be high-quality, on-brand, and designed to drive results for your business.",
     image: "/images/service-home-real/Tax-amico.svg",
   },
   

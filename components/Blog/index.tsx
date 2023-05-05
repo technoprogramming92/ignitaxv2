@@ -12,7 +12,10 @@ const Blog = () => {
       <div className="container">
         <SectionTitle
           title="Our Services"
-          paragraph="Grab a cup of coffee and take a peek at the services Ignitax offer for your ease."
+          paragraph="Grab a cup of coffee and take a peek at the services Ignitax offers for your ease."
+          paragraph2=""
+          paragraph3=""
+          paragraph4=""
           center
         />
 
