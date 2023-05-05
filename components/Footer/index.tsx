@@ -141,6 +141,15 @@ const Footer = () => {
                       About{" "}
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      href="/AllServices/page"
+                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      {" "}
+                      Services{" "}
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -223,7 +232,8 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              All rigts reserved by <a href="https://nextjstemplates.com" rel="nofollow noopener">IGNITAX</a>
+              All rigts reserved by <a href="https://nextjstemplates.com" rel="nofollow noopener">IGNITAX <img src="monogram.png" className="inline-block" alt="monogram" height={55} width={45}/></a>
+              
             </p>
           </div>
         </div>
