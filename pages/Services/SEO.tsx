@@ -43,7 +43,7 @@ const SEO = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Digital Media Marketing and SEO"
-                paragraph="Are you tired of shouting into the void of social media? Let us be your online megaphone! Our team of digital media mavens can help boost your online presence and engage with your audience like never before. From content creation to social media management, we'll help you connect with your audience and grow your brand."
+                paragraph="Do you feel like you're talking to an empty room on social media without getting any response or engagement? Let us be your online megaphone! Our team of digital media mavens can help boost your online presence and engage with your audience like never before. From content creation to social media management, we'll help you connect with your audience and grow your brand."
                 paragraph2="So let us take the reins and give your online presence the boost it needs! We promise we won't post any embarrassing cat videos (unless you want us to)."
                 paragraph3=""
                 paragraph4=""

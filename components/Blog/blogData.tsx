@@ -6,7 +6,7 @@ const blogData: Blog[] = [
     title: "Taxation & Bookkeeping",
     paragraph:
     
-      "Say goodbye to stress of bookkeeping, tax prepration and tax planning with Ignitax! Our reliable tech and virtual staff of superheroes (EA's & CPA's) will make sure you never miss a payment or deadline again. Schedule a free consultation today and let us make bookkeeping and taxes fun! (Okay, maybe not fun, but definitely less painful!)",
+      "Say goodbye to the stress of bookkeeping, tax preparation and tax planning with Ignitax! Our reliable tech and virtual staff of superheroes (EA's & CPA's) will make sure you never miss a payment or deadline again. Schedule a free consultation today and let us make bookkeeping and taxes fun! (Okay, maybe not fun, but definitely less painful!)",
     image: "/images/service-home-real/Tax-amico.svg",
     path: "/Services/Tax",
   },
@@ -14,7 +14,7 @@ const blogData: Blog[] = [
     id: 2,
     title: "Software Web Development",
     paragraph:
-      "Are you stuck with software and websites from the dinosaur era? Let us transport you to the future! Our virtual team of professionals are specialize in web development, software development, and automation. From stunning website designs to magical software integrations, we've got you covered. Say goodbye to clunky, outdated tech and hello to a brighter future with Ignitax.",
+      "Are you stuck with software and websites from the dinosaur era? Let us transport you to the future! Our virtual team of professionals specialise in web development, software development, and automation. From stunning website designs to magical software integrations, we've got you covered. Say goodbye to clunky, outdated tech and hello to a brighter future with Ignitax.",
     image: "/images/service-home-real/Design team-amico.svg",
     path: "/Services/Web",
   },
@@ -22,7 +22,7 @@ const blogData: Blog[] = [
     id: 3,
     title: "IT & Support",
     paragraph:
-      "Are you tired of dealing with slow websites, finicky databases, and glitchy hardware? we've got your back with our best virtual staff of IT and support services. From website and database maintenance to IoT and cloud management our virtual assistant team and networking and hardware support team is with you. why stress when you can contact us today for a free consultation?",
+      "Are you tired of dealing with slow websites, finicky databases, and glitchy hardware? we've got your back with our best virtual staff of IT and support services. From website and database maintenance to IoT and cloud management our virtual assistant team and networking and hardware support team is with you. Why stress when you can contact us today for a free consultation?",
     image: "/images/service-home-real/Code typing-amico.svg",
     path: "/Services/IT",
   },

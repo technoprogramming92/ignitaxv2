@@ -62,22 +62,22 @@ const Graphics = () => {
                     <List text="Flyers" />
                     <List text="Infographics" />
                     <List text="Menus" />
-                    <List text="News Letters" />
-                    <List text="Packging Design" />
+                    <List text="Newsletters" />
+                    <List text="Packaging Design" />
                     <List text="Vector Art" />
                     
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Businesscards" />
-                    <List text="Business fourms" />
-                    <List text="Catalouges" />
+                    <List text="Business Cards" />
+                    <List text="Business forums" />
+                    <List text="Catalogues" />
                     <List text="Invitations" />
-                    <List text="Letter heads" />
+                    <List text="Letterheads" />
                     <List text="Logos" />
                     <List text="Posters" />
                     <List text="Social Media Posts" />
-                    <List text="Stickers and Lables" />
+                    <List text="Stickers and Labels" />
                     <List text="Vehicle Wraps" />
                   </div>
                 </div>

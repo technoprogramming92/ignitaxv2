@@ -2,10 +2,11 @@
 
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import SectionTitle from "@/components/Common/SectionTitle";
+import Developersfeatures from "@/components/Developersfeatures";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
-import PhotoFeatures from "@/components/PhotoFeatures";
+
 
 
 const Developers = () => {
@@ -14,7 +15,7 @@ const Developers = () => {
         <Header />
       <Breadcrumb
         pageName="Developers"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description=""
       />
       <section id="about" className="pt-16 md:pt-20 lg:pt-28">
         <div className="container">
@@ -22,8 +23,11 @@ const Developers = () => {
             <div className="-mx-4 flex flex-wrap items-center">
               <div className="w-full px-4 lg:w-1/2">
                 <SectionTitle
-                  title="Crafted for Startup, SaaS and Business Sites."
-                  paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                  title="Choose Developers"
+                  paragraph="Welcome to our Developers section! We understand that the backbone of any tech project is the developers who build it. That's why we offer a variety of services to support your development needs."
+                  paragraph2="If you're looking for a reliable development partner, look no further. Contact us today to learn more about our development services and how we can help you bring your ideas to life."
+                  paragraph3=""
+                  paragraph4=""
                   mb="44px"
                 />
 
@@ -52,7 +56,7 @@ const Developers = () => {
           </div>
         </div>
       </section>
-      <PhotoFeatures />
+      <Developersfeatures />
       <Footer />
     </div>
   )
