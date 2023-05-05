@@ -232,7 +232,7 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              All rigts reserved by <a href="https://nextjstemplates.com" rel="nofollow noopener">IGNITAX <img src="monogram.png" className="inline-block" alt="monogram" height={55} width={45}/></a>
+              All rigts reserved by <a href="https://nextjstemplates.com" rel="nofollow noopener">IGNITAX </a>
               
             </p>
           </div>

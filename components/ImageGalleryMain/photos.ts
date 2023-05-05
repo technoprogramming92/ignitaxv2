@@ -28,8 +28,8 @@ const photos = [
     },
     {
         src: "/images/photoGallery/Img4.jpg",
-        width: 1600,
-        height: 900,
+        width: 900,
+        height: 650,
         srcSet: [
             { src: "/images/photoGallery/Img4.jpg", width: 800, height: 450 },
             { src: "/images/photoGallery/Img4.jpg", width: 400, height: 225 }
@@ -37,8 +37,8 @@ const photos = [
     },
     {
         src: "/images/photoGallery/Img5.jpg",
-        width: 1600,
-        height: 900,
+        width: 800,
+        height: 650,
         srcSet: [
             { src: "/images/photoGallery/Img5.jpg", width: 800, height: 450 },
             { src: "/images/photoGallery/Img5.jpg", width: 400, height: 225 }
@@ -55,8 +55,8 @@ const photos = [
     },
     {
         src: "/images/photoGallery/Img7.jpg",
-        width: 100,
-        height: 300,
+        width: 800,
+        height: 600,
         srcSet: [
             { src: "/images/photoGallery/Img7.jpg", width: 800, height: 450 },
             { src: "/images/photoGallery/Img7.jpg", width: 400, height: 225 }
@@ -64,8 +64,8 @@ const photos = [
     },
     {
         src: "/images/photoGallery/Img8.jpg",
-        width: 800,
-        height: 600,
+        width: 750,
+        height: 550,
         srcSet: [
             { src: "/images/photoGallery/Img8.jpg", width: 800, height: 450 },
             { src: "/images/photoGallery/Img8.jpg", width: 400, height: 225 }

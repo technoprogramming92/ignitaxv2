@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
 import ImageGallery from "@/components/ImageGallery";
+import Link from "next/link";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -24,43 +25,40 @@ const Photography = () => {
   return (
     <>
       <Header />
-      <Breadcrumb
-        pageName="Photography"
-        description=""
-      />
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
-      <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title="Photography"
-                paragraph="Our team of skilled photographers captures your memories in stunning detail. From product photography to Event photography, we offer a wide range of services to meet your needs. We use high-end cameras and lighting equipment to ensure that your images are crisp, clear, and visually appealing."
-                paragraph2=""
-                paragraph3=""
-                paragraph4=""
-                mb="44px"
-              />
+      <Breadcrumb pageName="Photography" description="" />
+      <section id="about" className="pt-16 md:pt-20 lg:pt-28">
+        <div className="container">
+          <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+            <div className="-mx-4 flex flex-wrap items-center">
+              <div className="w-full px-4 lg:w-1/2">
+                <SectionTitle
+                  title="Photography"
+                  paragraph="Our team of skilled photographers captures your memories in stunning detail. From product photography to Event photography, we offer a wide range of services to meet your needs. We use high-end cameras and lighting equipment to ensure that your images are crisp, clear, and visually appealing."
+                  paragraph2=""
+                  paragraph3=""
+                  paragraph4=""
+                  mb="44px"
+                />
 
-              <div
-                className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Product Photography" />
-                    <List text="Event Photography" />
-                    <List text="Wedding Photography" />
-                  </div>
+                <div
+                  className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
+                  data-wow-delay=".15s"
+                >
+                  <div className="mx-[-12px] flex flex-wrap">
+                    <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                      <List text="Product Photography" />
+                      <List text="Event Photography" />
+                      <List text="Wedding Photography" />
+                    </div>
 
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Real Estate Photography" />
-                    <List text="Portrait Photography" />
-                    <List text="Photo Editing and Retouching" />
+                    <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                      <List text="Real Estate Photography" />
+                      <List text="Portrait Photography" />
+                      <List text="Photo Editing and Retouching" />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
               <div className="w-full px-4 lg:w-1/2">
                 <div
@@ -76,10 +74,18 @@ const Photography = () => {
                 </div>
               </div>
             </div>
+            <div className="flex flex-col items-center content-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 mt-10">
+              <Link
+                href="/Contact/page"
+                className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+              >
+                Book a Call
+              </Link>
+            </div>
           </div>
         </div>
       </section>
-      
+
       <ImageGallery />
       <Footer />
     </>

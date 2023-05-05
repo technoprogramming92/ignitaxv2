@@ -5,6 +5,7 @@ import SectionTitle from "@/components/Common/SectionTitle";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
+import Link from "next/link";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -25,10 +26,7 @@ const Tax = () => {
   return (
     <>
       <Header />
-      <Breadcrumb
-        pageName="Bookkeeping And Tax"
-        description=""
-      />
+      <Breadcrumb pageName="Bookkeeping And Tax" description="" />
       <section id="about" className="pt-16 md:pt-20 lg:pt-28">
         <div className="container">
           <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
@@ -57,7 +55,7 @@ const Tax = () => {
                     <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                       <List text="Sales Tax Compliance" />
                       <List text="Financial Statements Preparation" />
-                      <List text="Day to Day Bookkeeping"/>
+                      <List text="Day to Day Bookkeeping" />
                     </div>
                   </div>
                 </div>
@@ -77,6 +75,14 @@ const Tax = () => {
                 </div>
               </div>
             </div>
+            <div className="flex flex-col items-center content-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 mt-10">
+              <Link
+                href="/Contact/page"
+                className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+              >
+                Book a Call
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -88,7 +94,7 @@ const Tax = () => {
               <div className="w-full px-4 lg:w-1/2">
                 <SectionTitle
                   title="Taxation"
-                  paragraph="At Ignitax , we're proud to have a team of highly experienced tax professionals who are dedicated to providing our clients with exceptional service. Our team works closely with CPAs and EAs to ensure that all of our clients' tax needs are met."      
+                  paragraph="At Ignitax , we're proud to have a team of highly experienced tax professionals who are dedicated to providing our clients with exceptional service. Our team works closely with CPAs and EAs to ensure that all of our clients' tax needs are met."
                   paragraph2="We have extensive experience working with a wide range of tax forms, including the 1040, 1120, 1120S, 1065 and manymore. Our team stays up-to-date with the latest tax regulations and requirements, so that we can provide our clients with the most accurate and efficient service possible."
                   mb="44px"
                   paragraph3="In addition to our domestic tax services, we're also well-versed in foreign compliances, such as the FBAR, 5471, 5472, GILTI, FDII, and more. We understand the complexities of international tax laws and regulations, and we work tirelessly to ensure that our clients remain compliant and avoid any potential penalties or fines.Our team is also well-versed in the R&D tax credit (Form 6765) and the Employee Retention Tax Credit (ERTC). We work closely with our clients to identify any eligible credits and deductions, and we help them navigate the application process to ensure that they receive the maximum benefits."
@@ -101,7 +107,6 @@ const Tax = () => {
                 >
                   <div className="mx-[-12px] flex flex-wrap">
                     <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                      
                       <List text="Tax Preparation " />
                       <List text="Tax Planning and Consultation" />
                       <List text="Foreign Compliances" />
@@ -130,6 +135,14 @@ const Tax = () => {
                   />
                 </div>
               </div>
+            </div>
+            <div className="flex flex-col items-center content-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 mt-10">
+              <Link
+                href="/Contact/page"
+                className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+              >
+                Book a Call
+              </Link>
             </div>
           </div>
         </div>
