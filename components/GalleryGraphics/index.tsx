@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { useState } from "react";
+
 
 const ImageGallery = () => {
     const [index, setIndex] = useState(-1);
@@ -13,13 +15,13 @@ const ImageGallery = () => {
 
               <div
                   className="block rounded-lg bg-dark shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
-                  <a href="/Services/GraphicGalleryPage">
+                  <Link href="/Services/GraphicGalleryPage">
                     <img
                       className="rounded-t-lg"
                       src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
                       alt="" 
                       />
-                  </a>
+                  </Link>
                   <div className="p-6">
                   <h3 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl">
                 Gallery of Sample Work
@@ -412,7 +414,7 @@ const ImageGallery = () => {
         </svg>
       </div>
     </section>
-  </>
+    </>
   )
 }
 
