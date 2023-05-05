@@ -4,7 +4,6 @@ import SectionTitle from "@/components/Common/SectionTitle";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
-import PhotoFeatures from "@/components/PhotoFeatures";
 import ImageGallery from "@/components/ImageGallery";
 
 const checkIcon = (
@@ -27,38 +26,41 @@ const Photography = () => {
       <Header />
       <Breadcrumb
         pageName="Photography"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description=""
       />
-      <section id="about" className="pt-16 md:pt-20 lg:pt-28">
-        <div className="container">
-          <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-            <div className="-mx-4 flex flex-wrap items-center">
-              <div className="w-full px-4 lg:w-1/2">
-                <SectionTitle
-                  title="Crafted for Startup, SaaS and Business Sites."
-                  paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
-                  mb="44px"
-                />
+    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
+      <div className="container">
+        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+          <div className="-mx-4 flex flex-wrap items-center">
+            <div className="w-full px-4 lg:w-1/2">
+              <SectionTitle
+                title="Photography"
+                paragraph="Our team of skilled photographers captures your memories in stunning detail. From product photography to Event photography, we offer a wide range of services to meet your needs. We use high-end cameras and lighting equipment to ensure that your images are crisp, clear, and visually appealing."
+                paragraph2=""
+                paragraph3=""
+                paragraph4=""
+                mb="44px"
+              />
 
-                <div
-                  className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
-                  data-wow-delay=".15s"
-                >
-                  <div className="mx-[-12px] flex flex-wrap">
-                    <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                      <List text="Premium quality" />
-                      <List text="Tailwind CSS" />
-                      <List text="Use for lifetime" />
-                    </div>
+              <div
+                className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
+                data-wow-delay=".15s"
+              >
+                <div className="mx-[-12px] flex flex-wrap">
+                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                    <List text="Product Photography" />
+                    <List text="Event Photography" />
+                    <List text="Wedding Photography" />
+                  </div>
 
-                    <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                      <List text="Next.js" />
-                      <List text="Rich documentation" />
-                      <List text="Developer friendly" />
-                    </div>
+                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                    <List text="Real Estate Photography" />
+                    <List text="Portrait Photography" />
+                    <List text="Photo Editing and Retouching" />
                   </div>
                 </div>
               </div>
+            </div>
 
               <div className="w-full px-4 lg:w-1/2">
                 <div
@@ -77,7 +79,7 @@ const Photography = () => {
           </div>
         </div>
       </section>
-      <PhotoFeatures />
+      
       <ImageGallery />
       <Footer />
     </>
