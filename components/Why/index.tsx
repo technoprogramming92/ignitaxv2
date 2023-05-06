@@ -5,45 +5,45 @@ import SectionTitle from "../Common/SectionTitle";
 const whyData: Why[] = [
     {
       id: 1,
-      content_bold:"Dedicated Like our parents wanted us to be with studies",
+      content_bold:"Pajamas and Productivity ",
       content:
-    " - Ignitax provides Dedicated virtual person, team, staff to you! ",
+      "With our virtual services, you can collaborate with top-notch professionals from anywhere in the world, all while staying cozy in your pajamas.",
     },
     {
       id: 2,
-      content_bold:"Like Mamma says, Save Money",
+      content_bold:"Jack of All Trades, Master of All",
       content:
-    " - with an employee, you have to pay a salary, benefits, and other employment-related expenses and our virtual staff will save a legit amount of money isn't that amazing?",
+      "Our team comprises experts from diverse fields like IT, marketing, design, and content creation. From start to end, we have your back.",
     },
     {
       id: 3,
-      content_bold:"24/7 Availability like your bff",
+      content_bold:"More Bang for Your Buck",
       content:
-    " - Need a helping hand who will be by your side, someone authentic just like your bff? And also don't want to deal with the hassles of scheduling and time zones? A virtual professional can work for you from anywhere, at any time even in their pajamas.",
+      "Our virtual services are priced affordably, providing you with top-notch expertise without breaking the bank.",
     },
     {
       id: 4,
-      content_bold:"Specialised skilled person with perfection just like Beyonce",
+      content_bold:"You're Not Just a Number to Us",
       content:
-        " - We're practically superheroes, but without the capes. We can save you time, money, and sanity with professionalism and perfection.",
+        "We take the time to understand your unique requirements and objectives, ensuring personalized attention at every stage.",
     },
     {
       id: 5,
-      content_bold:"",
+      content_bold:"Thinking Outside the Box",
       content:
-        "Productivity",
+        "Because Innovation in our DNA: We constantly explore novel and innovative ways to help our clients achieve success. Expect fresh ideas from us. ",
     },
     {
       id: 6,
-      content_bold:"",
+      content_bold:"No Hidden Agendas",
       content:
-        "Data protection",
+        "We believe in open and honest communication with our clients, ensuring you stay in the loop with every project.",
     },
     {
       id: 7,
-      content_bold:"",
+      content_bold:"Fort Knox Has Nothing on Us",
       content:
-        "We are Focused on meeting your deadlines.",
+        "We take data protection seriously and ensure your sensitive information is protected with the same level of security used to safeguard gold bullion.",
     },
     {
       id: 8,
