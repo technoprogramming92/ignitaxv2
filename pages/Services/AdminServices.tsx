@@ -13,7 +13,7 @@ const AdminServices = () => {
       <Header />
       <Breadcrumb
         pageName="Admin Work and Assistance"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description=""
       />
       <section id="about" className="pt-16 md:pt-20 lg:pt-28">
         <div className="container">
@@ -21,8 +21,11 @@ const AdminServices = () => {
             <div className="-mx-4 flex flex-wrap items-center">
               <div className="w-full px-4 lg:w-1/2">
                 <SectionTitle
-                  title="Crafted for Startup, SaaS and Business Sites."
-                  paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                  title="Admin Work & Assistance"
+                  paragraph="Do you find yourself struggling to keep up with the day-to-day administrative tasks of running your business? At our virtual assistant company, we understand the importance of having an organized and efficient workflow. That's why we offer top-notch virtual admin services to help lighten your load."
+                  paragraph2="Our team of experienced virtual assistants are well-versed in managing schedules, email inboxes, bookkeeping, data entry, and more. We pay close attention to detail and always strive to cater to your unique needs and preferences."
+                  paragraph3="By partnering with us for virtual admin services, you can shift your focus to growing your business while we take care of the time-consuming administrative tasks. Rest easy knowing that your business is in capable hands with our reliable and professional team."
+                  paragraph4=""
                   mb="44px"
                 />
 
@@ -32,6 +35,7 @@ const AdminServices = () => {
                 >
                   <div className="mx-[-12px] flex flex-wrap"></div>
                 </div>
+                
               </div>
 
               <div className="w-full px-4 lg:w-1/2">
