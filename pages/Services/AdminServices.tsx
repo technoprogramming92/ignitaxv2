@@ -6,6 +6,7 @@ import SectionTitle from "@/components/Common/SectionTitle";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
+import Adminfeatures from "@/components/Adminfeatures";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -49,15 +50,11 @@ const AdminServices = () => {
                 >
                   <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                      <List text="Accounts Payable and Receivable" />
-                      <List text="Bank Reconciliations" />
-                      <List text="UsPayroll Processing" />
+                      
                     </div>
 
                     <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                      <List text="Sales Tax Compliance" />
-                      <List text="Financial Statements Preparation" />
-                      <List text="Day to Day Bookkeeping" />
+                      
                     </div>
                   </div>
                 </div>
@@ -81,6 +78,7 @@ const AdminServices = () => {
           </div>
         </div>
       </section>
+      <Adminfeatures />
 
       <Footer />
     </>
